@@ -40,6 +40,17 @@ h5 {
 /* <<<<<<<<  HOME HEADER   >>>>>>>>  */
 
 /* <<<<<<<<  HOME MENU BUTTON  >>>>>>>>  */
+.home_menuBtn {
+	margin-bottom: 20px;
+	font-size: 22px;
+	letter-spacing: 2px;
+	border-radius: 15px;
+	border-style: none;
+	height: 50px;
+	width: 300px;
+	background-color: #252525;
+	color: white;
+}
 
 /* <<<<<<<<  HOME MENU BUTTON  >>>>>>>>  */
 
