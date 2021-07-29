@@ -4,6 +4,10 @@ figure {
 	margin: 0;
 }
 
+h5 {
+	margin: 0;
+}
+
 /* <<<<<<<<  GENERAL TAGS   >>>>>>>>  */
 
 /* <<<<<<<<  App  >>>>>>>>  */
@@ -26,7 +30,6 @@ figure {
 .home_logoContainer {
 	width: 225px;
 	height: 225px;
-	/* margin: 0px auto; */
 }
 
 .home_logo {
@@ -47,19 +50,35 @@ figure {
 	position: relative;
 	width: 300px;
 	height: 533px;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+.slider article {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 0.3s linear;
 }
 
 .slider_imgContainer {
 	width: 300px;
 	height: 533px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	overflow: hidden;
 	border-radius: 20px;
+	overflow: hidden;
 }
 
 .slider_link {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	height: 533px;
+	width: 300px;
+	text-decoration: none;
+	color: black;
 }
 
 .slider_img {
@@ -68,6 +87,14 @@ figure {
 }
 
 .slider_buyText {
+	position: absolute;
+	bottom: 10px;
+	height: 30px;
+	width: 130px;
+	background: #ffffffc2;
+	display: grid;
+	place-items: center;
+	border-radius: 10px;
 }
 
 .slider article.activeSlide {
@@ -77,8 +104,32 @@ figure {
 .slider article.lastSlide {
 	transform: translateX(-100%);
 }
-.slider article.activeSlide {
+.slider article.nextSlide {
 	transform: translateX(100%);
 }
 
+.slider_prevBtn {
+	left: 0;
+}
+
+.slider_nextBtn {
+	right: 0;
+}
+
+.slider_prevBtn,
+.slider_nextBtn {
+	position: absolute;
+	top: 200px;
+	background: #ffffff8c;
+	color: #222;
+	width: 50px;
+	height: 50px;
+	display: grid;
+	place-items: center;
+	border-color: transparent;
+	font-size: 40px;
+	padding: 0;
+	border-radius: 40px;
+	cursor: pointer;
+}
 /* <<<<<<<<  HOME SLIDER  >>>>>>>>  */
