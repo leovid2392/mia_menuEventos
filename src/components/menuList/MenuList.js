@@ -39,6 +39,7 @@ function MenuList({ showHome, setShowHome }) {
 		}
 	};
 
+
 	if (!english) {
 		return (
 			<section className='menuList'>
