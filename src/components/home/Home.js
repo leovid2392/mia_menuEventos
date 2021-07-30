@@ -7,7 +7,7 @@ import data from "../../data";
 import { FiChevronLeft } from "react-icons/fi";
 import { FiChevronRight } from "react-icons/fi";
 
-function Home() {
+function Home({ showHome, setShowHome }) {
 	const [events, setEvents] = useState(data);
 	const [index, setIndex] = useState(0);
 
@@ -30,6 +30,12 @@ function Home() {
 		};
 	}, [index]);
 
+	const handleMenu = () => {
+		if (showHome) {
+			setShowHome(false);
+		}
+	};
+
 	const handlePrevBtn = () => {
 		setIndex(index - 1);
 	};
@@ -48,7 +54,9 @@ function Home() {
 					/>
 				</figure>
 			</header>
-			<button className='home_menuBtn'>menu</button>
+			<button className='home_menuBtn' onClick={handleMenu}>
+				menu
+			</button>
 			<section className='slider'>
 				{events.map((event, eventIndex) => {
 					const { id, url, title, image } = event;

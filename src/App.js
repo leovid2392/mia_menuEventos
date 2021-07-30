@@ -9,9 +9,9 @@ function App() {
 	const [showHome, setShowHome] = useState(false);
 
 	if (showHome) {
-		return <Home />;
+		return <Home showHome={showHome} setShowHome={setShowHome} />;
 	} else {
-		return <MenuList />;
+		return <MenuList showHome={showHome} setShowHome={setShowHome} />;
 	}
 }
 
