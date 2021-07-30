@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 
+import Drinks from "../drinks/Drinks";
+import NavBar from "../navBar/NavBar";
+
 import { AiOutlineClose } from "react-icons/ai";
+import { FaBookDead } from "react-icons/fa";
 
 function MenuList({ showHome, setShowHome }) {
 	const [english, setEnglish] = useState(false);
@@ -39,6 +43,83 @@ function MenuList({ showHome, setShowHome }) {
 		}
 	};
 
+	if (english && drinks) {
+		return (
+			<>
+				<NavBar
+					setShowHome={setShowHome}
+					showHome={showHome}
+					food='drinks'
+					setDrinks={setDrinks}
+				/>
+				<Drinks text='drinks in english' />
+			</>
+		);
+	} else if (drinks) {
+		return (
+			<>
+				<NavBar
+					setShowHome={setShowHome}
+					showHome={showHome}
+					food='drinks'
+					setDrinks={setDrinks}
+				/>
+				<Drinks text='drinks in spanish' />
+			</>
+		);
+	}
+
+	if (english && food) {
+		return (
+			<>
+				<NavBar
+					setShowHome={setShowHome}
+					showHome={showHome}
+					food='food'
+					setFood={setFood}
+				/>
+				<Drinks text='food in english' />
+			</>
+		);
+	} else if (food) {
+		return (
+			<>
+				<NavBar
+					setShowHome={setShowHome}
+					showHome={showHome}
+					food='food'
+					setFood={setFood}
+				/>
+				<Drinks text='food in spanish' />
+			</>
+		);
+	}
+
+	if (english && pizza) {
+		return (
+			<>
+				<NavBar
+					setShowHome={setShowHome}
+					showHome={showHome}
+					food='pizza'
+					setPizza={setPizza}
+				/>
+				<Drinks text='pizza in english' />
+			</>
+		);
+	} else if (pizza) {
+		return (
+			<>
+				<NavBar
+					setShowHome={setShowHome}
+					showHome={showHome}
+					food='pizza'
+					setPizza={setPizza}
+				/>
+				<Drinks text='pizza in spanish' />
+			</>
+		);
+	}
 
 	if (!english) {
 		return (
@@ -76,9 +157,15 @@ function MenuList({ showHome, setShowHome }) {
 					</button>
 				</div>
 				<section className='menuList_buttons'>
-					<button className='btn'> Drinks </button>
-					<button className='btn'> Food </button>
-					<button className='btn'> Pizza & Pasta </button>
+					<button className='btn' onClick={handleDrinks}>
+						Drinks
+					</button>
+					<button className='btn' onClick={handleFood}>
+						Food
+					</button>
+					<button className='btn' onClick={handlePizza}>
+						Pizza & Pasta
+					</button>
 				</section>
 			</section>
 		);

@@ -6,7 +6,7 @@ import MenuList from "./components/menuList/MenuList";
 import "./App.css";
 
 function App() {
-	const [showHome, setShowHome] = useState(false);
+	const [showHome, setShowHome] = useState(true);
 
 	if (showHome) {
 		return <Home showHome={showHome} setShowHome={setShowHome} />;
