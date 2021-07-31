@@ -1,10 +1,11 @@
 import React from "react";
 
-function Drinks({ text }) {
+function Drinks({ img1, img2 }) {
 	return (
 		<section className='drinks'>
-			<figure>
-				<h1>{text}</h1>
+			<figure className='menuImg_container'>
+				<img src={img1} alt='menu drinks' />
+				<img src={img2} alt='menu drinks' />
 			</figure>
 		</section>
 	);
