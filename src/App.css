@@ -8,6 +8,10 @@ h5 {
 	margin: 0;
 }
 
+button {
+	cursor: pointer;
+}
+
 /* <<<<<<<<  GENERAL TAGS   >>>>>>>>  */
 
 /* <<<<<<<<  App  >>>>>>>>  */
@@ -48,7 +52,7 @@ h5 {
 	border-style: none;
 	height: 50px;
 	width: 300px;
-	background-color: #252525;
+	background: #7c9c66;
 	color: white;
 }
 
@@ -172,16 +176,23 @@ h5 {
 }
 
 .navBar {
-	width: 80%;
+	width: 100vw;
+	height: 40px;
 	display: flex;
 	justify-content: space-between;
-	padding: 5px 10px 0px 10px;
+	align-items: center;
 	position: sticky;
 	top: 0px;
 	z-index: 999;
 	background-color: #fdfdfd;
-	padding-top: 5px;
 	box-shadow: 2px 5px 15px #f1f1f1;
+	/* margin-bottom: 30px; */
+}
+
+.taxInfo {
+	text-align: center;
+	font-size: 10px;
+	color: #c7c7c7;
 }
 
 .navBar_icon {
@@ -190,6 +201,10 @@ h5 {
 	background-color: transparent;
 	border-style: none;
 }
+.navBar p {
+	color: #c7c7c7;
+	text-transform: capitalize;
+}
 
 .menuList {
 	width: 100vw;
@@ -197,7 +212,7 @@ h5 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background: black;
+	/* background: #7c9c66; */
 }
 
 .menuList_nav {
@@ -209,11 +224,19 @@ h5 {
 
 .menuList_buttons {
 	display: flex;
-	width: 300px;
+	width: 150px;
 	height: 400px;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
+}
+
+.menuList_buttons button {
+	font-size: 15px;
+	font-weight: bold;
+	width: 100%;
+	background: #7c9c66;
+	color: white;
 }
 
 .icon {
@@ -227,6 +250,16 @@ h5 {
 	border: none;
 }
 
+.icon-home {
+	margin-left: 20px;
+	color: #7c9c66;
+}
+
+.icon-menu {
+	margin-right: 20px;
+	color: #7c9c66;
+}
+
 .icon-white {
 	display: grid;
 	align-items: center;
@@ -236,12 +269,13 @@ h5 {
 	font-size: 20px;
 	background: transparent;
 	border: none;
-	color: white;
+	color: #7c9c66;
 }
 
 .btn {
 	padding: 10px;
 	border-radius: 15px;
 	border: none;
-	background: white;
+	background: transparent;
+	color: #7c9c66;
 }
