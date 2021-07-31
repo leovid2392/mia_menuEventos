@@ -1,7 +1,16 @@
 import React, { useState } from "react";
 
-import Drinks from "../drinks/Drinks";
 import NavBar from "../navBar/NavBar";
+import Drinks from "../drinks/Drinks";
+import Food from "../food/Food";
+import Pizza from "../pizza/Pizza";
+
+import drinks1 from "../../assets/drinks1.jpg";
+import drinks2 from "../../assets/drinks2.jpg";
+import food_esp from "../../assets/food_esp.jpg";
+import food_ing from "../../assets/food_ing.jpg";
+import pizzaPasta_esp from "../../assets/pizzaPasta_esp.jpg";
+import pizzaPasta_ing from "../../assets/pizzaPasta_ing.jpg";
 
 import { AiOutlineClose } from "react-icons/ai";
 import { FaBookDead } from "react-icons/fa";
@@ -45,79 +54,79 @@ function MenuList({ showHome, setShowHome }) {
 
 	if (english && drinks) {
 		return (
-			<>
+			<section className='menu_item'>
 				<NavBar
 					setShowHome={setShowHome}
 					showHome={showHome}
 					food='drinks'
 					setDrinks={setDrinks}
 				/>
-				<Drinks text='drinks in english' />
-			</>
+				<Drinks img1={drinks1} img2={drinks2} />
+			</section>
 		);
 	} else if (drinks) {
 		return (
-			<>
+			<section className='menu_item'>
 				<NavBar
 					setShowHome={setShowHome}
 					showHome={showHome}
 					food='drinks'
 					setDrinks={setDrinks}
 				/>
-				<Drinks text='drinks in spanish' />
-			</>
+				<Drinks img1={drinks1} img2={drinks2} />
+			</section>
 		);
 	}
 
 	if (english && food) {
 		return (
-			<>
+			<section className='menu_item'>
 				<NavBar
 					setShowHome={setShowHome}
 					showHome={showHome}
 					food='food'
 					setFood={setFood}
 				/>
-				<Drinks text='food in english' />
-			</>
+				<Food img={food_ing} />
+			</section>
 		);
 	} else if (food) {
 		return (
-			<>
+			<section className='menu_item'>
 				<NavBar
 					setShowHome={setShowHome}
 					showHome={showHome}
 					food='food'
 					setFood={setFood}
 				/>
-				<Drinks text='food in spanish' />
-			</>
+				<Food img={food_esp} />
+			</section>
 		);
 	}
 
 	if (english && pizza) {
 		return (
-			<>
+			<section className='menu_item'>
 				<NavBar
 					setShowHome={setShowHome}
 					showHome={showHome}
 					food='pizza'
 					setPizza={setPizza}
 				/>
-				<Drinks text='pizza in english' />
-			</>
+				<Pizza img={pizzaPasta_ing} />
+			</section>
 		);
 	} else if (pizza) {
 		return (
-			<>
+			<section className='menu_item'>
 				<NavBar
 					setShowHome={setShowHome}
 					showHome={showHome}
 					food='pizza'
 					setPizza={setPizza}
 				/>
-				<Drinks text='pizza in spanish' />
-			</>
+				<Pizza img={pizzaPasta_esp} />
+			</section>
 		);
 	}
 
@@ -125,7 +134,7 @@ function MenuList({ showHome, setShowHome }) {
 		return (
 			<section className='menuList'>
 				<div className='menuList_nav'>
-					<button className='icon' onClick={handleMenu}>
+					<button className='icon-white' onClick={handleMenu}>
 						<AiOutlineClose />
 					</button>
 					<button className='btn' onClick={handleLenguage}>
@@ -149,7 +158,7 @@ function MenuList({ showHome, setShowHome }) {
 		return (
 			<section className='menuList'>
 				<div className='menuList_nav'>
-					<button className='icon' onClick={handleMenu}>
+					<button className='icon-white' onClick={handleMenu}>
 						<AiOutlineClose />
 					</button>
 					<button className='btn' onClick={handleLenguage}>

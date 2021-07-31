@@ -23,11 +23,11 @@ function NavBar({ setShowHome, showHome, food, setDrinks, setPizza, setFood }) {
 	};
 
 	return (
-		<div className='nav'>
-			<button className='nav_icon' onClick={handleHome}>
+		<div className='navBar'>
+			<button className='icon' onClick={handleHome}>
 				<AiOutlineHome />
 			</button>
-			<button className='nav_icon' onClick={handleMenu}>
+			<button className='icon' onClick={handleMenu}>
 				<FaBars />
 			</button>
 		</div>

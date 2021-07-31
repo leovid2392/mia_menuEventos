@@ -144,3 +144,104 @@ h5 {
 	cursor: pointer;
 }
 /* <<<<<<<<  HOME SLIDER  >>>>>>>>  */
+
+/* <<<<<<<<  MENU COMPONENTS IMAGES >>>>>>>>  */
+
+.drinks {
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.menuImg_container {
+	width: 300px;
+}
+.menuImg_container img {
+	width: 100%;
+}
+
+/* <<<<<<<< MENU COMPONENTS IMAGES  >>>>>>>>  */
+
+.menu_item {
+	margin: 0 auto;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.navBar {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 10px 0px 10px;
+	position: sticky;
+	top: 0px;
+	z-index: 999;
+	background-color: #fdfdfd;
+	padding-top: 5px;
+	box-shadow: 2px 5px 15px #f1f1f1;
+}
+
+.navBar_icon {
+	display: grid;
+	font-size: 25px;
+	background-color: transparent;
+	border-style: none;
+}
+
+.menuList {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: black;
+}
+
+.menuList_nav {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+}
+
+.menuList_buttons {
+	display: flex;
+	width: 300px;
+	height: 400px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.icon {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	background: transparent;
+	border: none;
+}
+
+.icon-white {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	background: transparent;
+	border: none;
+	color: white;
+}
+
+.btn {
+	padding: 10px;
+	border-radius: 15px;
+	border: none;
+	background: white;
+}
