@@ -60,8 +60,13 @@ function MenuList({ showHome, setShowHome }) {
 					showHome={showHome}
 					food='drinks'
 					setDrinks={setDrinks}
+					menu='Drinks'
 				/>
-				<Drinks img1={drinks1} img2={drinks2} />
+				<Drinks
+					img1={drinks1}
+					img2={drinks2}
+					legalsText='All prices are in mexican pesos and include 16% TAX FEE'
+				/>
 			</section>
 		);
 	} else if (drinks) {
@@ -72,8 +77,13 @@ function MenuList({ showHome, setShowHome }) {
 					showHome={showHome}
 					food='drinks'
 					setDrinks={setDrinks}
+					menu='Bebidas'
 				/>
-				<Drinks img1={drinks1} img2={drinks2} />
+				<Drinks
+					img1={drinks1}
+					img2={drinks2}
+					legalsText='Los precios son en pesos mexicanos e incluyen 16% de IVA'
+				/>
 			</section>
 		);
 	}
@@ -86,8 +96,12 @@ function MenuList({ showHome, setShowHome }) {
 					showHome={showHome}
 					food='food'
 					setFood={setFood}
+					menu='food'
 				/>
-				<Food img={food_ing} />
+				<Food
+					img={food_ing}
+					legalsText='All prices are in mexican pesos and include 16% TAX FEE'
+				/>
 			</section>
 		);
 	} else if (food) {
@@ -98,8 +112,12 @@ function MenuList({ showHome, setShowHome }) {
 					showHome={showHome}
 					food='food'
 					setFood={setFood}
+					menu='alimentos'
 				/>
-				<Food img={food_esp} />
+				<Food
+					img={food_esp}
+					legalsText='Los precios son en pesos mexicanos e incluyen 16% de IVA'
+				/>
 			</section>
 		);
 	}
@@ -112,8 +130,12 @@ function MenuList({ showHome, setShowHome }) {
 					showHome={showHome}
 					food='pizza'
 					setPizza={setPizza}
+					menu='Pizza & Pasta'
 				/>
-				<Pizza img={pizzaPasta_ing} />
+				<Pizza
+					img={pizzaPasta_ing}
+					legalsText='All prices are in mexican pesos and include 16% TAX FEE'
+				/>
 			</section>
 		);
 	} else if (pizza) {
@@ -124,8 +146,12 @@ function MenuList({ showHome, setShowHome }) {
 					showHome={showHome}
 					food='pizza'
 					setPizza={setPizza}
+					menu='Pizza & Pasta'
 				/>
-				<Pizza img={pizzaPasta_esp} />
+				<Pizza
+					img={pizzaPasta_esp}
+					legalsText='Los precios son en pesos mexicanos e incluyen 16% de IVA'
+				/>
 			</section>
 		);
 	}
@@ -143,13 +169,13 @@ function MenuList({ showHome, setShowHome }) {
 				</div>
 				<section className='menuList_buttons'>
 					<button className='btn' onClick={handleDrinks}>
-						bebidas
+						Bebidas
 					</button>
 					<button className='btn' onClick={handleFood}>
-						alimentos
+						Alimentos
 					</button>
 					<button className='btn' onClick={handlePizza}>
-						pizza & pasta
+						Pizza & Pasta
 					</button>
 				</section>
 			</section>

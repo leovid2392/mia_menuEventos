@@ -2,7 +2,15 @@ import { AiOutlineHome } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
 // import "./navBar.css";
 
-function NavBar({ setShowHome, showHome, food, setDrinks, setPizza, setFood }) {
+function NavBar({
+	setShowHome,
+	showHome,
+	food,
+	setDrinks,
+	setPizza,
+	setFood,
+	menu,
+}) {
 	const handleHome = () => {
 		if (!showHome) {
 			setShowHome(true);
@@ -24,10 +32,11 @@ function NavBar({ setShowHome, showHome, food, setDrinks, setPizza, setFood }) {
 
 	return (
 		<div className='navBar'>
-			<button className='icon' onClick={handleHome}>
+			<button className='icon icon-home' onClick={handleHome}>
 				<AiOutlineHome />
 			</button>
-			<button className='icon' onClick={handleMenu}>
+			<p>{menu}</p>
+			<button className='icon icon-menu' onClick={handleMenu}>
 				<FaBars />
 			</button>
 		</div>
