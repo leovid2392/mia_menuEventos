@@ -1,17 +1,17 @@
 const sliderData = [
 	{
 		id: 1,
-		url: "https://www.ticketfairy.com/event/mathame-7aug2021/",
-		title: "mathame lyke neo human, special dinner",
+		url: "#",
+		title: "mistical sunset, agust 14th",
 		image:
-			"https://res.cloudinary.com/leovid23/image/upload/v1627585487/mia/august_07_tdkiim.jpg",
+			"https://res.cloudinary.com/leovid23/image/upload/v1628476748/mia/august_11_jvah1i.jpg",
 	},
 	{
 		id: 2,
-		url: "https://www.ticketfairy.com/event/mathame-7aug2021/",
-		title: "mathame lyke neo human, special dinner",
+		url: "#",
+		title: "Nic fanciulli, special dinner",
 		image:
-			"https://res.cloudinary.com/leovid23/image/upload/v1627585487/mia/august_07_tdkiim.jpg",
+			"https://res.cloudinary.com/leovid23/image/upload/v1628476747/mia/august_15_aaishg.jpg",
 	},
 ];
 
