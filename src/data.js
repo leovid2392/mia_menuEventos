@@ -4,7 +4,7 @@ const sliderData = [
 		url: "https://www.ticketfairy.com/event/cabizbajo-14aug2021/",
 		title: "cabizbajo, special dinner",
 		image:
-			"https://res.cloudinary.com/leovid23/image/upload/v1628516609/mia/august_14_awtfqx.jpg",
+			"https://res.cloudinary.com/leovid23/image/upload/v1628813521/mia/august_14_llkc3r.jpg",
 	},
 	{
 		id: 2,
