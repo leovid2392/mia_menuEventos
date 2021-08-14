@@ -16,3 +16,5 @@ const sliderData = [
 ];
 
 export default sliderData;
+
+// G-PY38QBC11Q
