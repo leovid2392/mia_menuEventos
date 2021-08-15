@@ -21,14 +21,14 @@ function Home({ showHome, setShowHome }) {
 		}
 	}, [index, events]);
 
-	useEffect(() => {
-		let slider = setTimeout(() => {
-			setIndex(index + 1);
-		}, 4000);
-		return () => {
-			clearInterval(slider);
-		};
-	}, [index]);
+	// useEffect(() => {
+	// 	let slider = setTimeout(() => {
+	// 		setIndex(index + 1);
+	// 	}, 4000);
+	// 	return () => {
+	// 		clearInterval(slider);
+	// 	};
+	// }, [index]);
 
 	const handleMenu = () => {
 		if (showHome) {
@@ -85,12 +85,12 @@ function Home({ showHome, setShowHome }) {
 						</article>
 					);
 				})}
-				<button className='slider_prevBtn' onClick={handlePrevBtn}>
+				{/* <button className='slider_prevBtn' onClick={handlePrevBtn}>
 					<FiChevronLeft />
 				</button>
 				<button className='slider_nextBtn' onClick={handleNextBtn}>
 					<FiChevronRight />
-				</button>
+				</button> */}
 			</section>
 		</div>
 	);
