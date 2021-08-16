@@ -1,17 +1,17 @@
 const sliderData = [
 	{
 		id: 1,
-		url: "https://www.ticketfairy.com/event/nic-fanciulli-15aug2021/",
-		title: "Nic fanciulli, special dinner",
+		url: "#",
+		title: "drink",
 		image:
-			"https://res.cloudinary.com/leovid23/image/upload/v1628476747/mia/august_15_aaishg.jpg",
+			"https://res.cloudinary.com/leovid23/image/upload/v1629134401/mia/default_ju2zv9.jpg",
 	},
 	{
 		id: 2,
-		url: "https://www.ticketfairy.com/event/nic-fanciulli-15aug2021/",
-		title: "Nic fanciulli, special dinner",
+		url: "#",
+		title: "drink",
 		image:
-			"https://res.cloudinary.com/leovid23/image/upload/v1628476747/mia/august_15_aaishg.jpg",
+			"https://res.cloudinary.com/leovid23/image/upload/v1629134401/mia/default_ju2zv9.jpg",
 	},
 ];
 

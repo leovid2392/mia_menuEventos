@@ -75,11 +75,11 @@ function Home({ showHome, setShowHome }) {
 					return (
 						<article className={position} key={id}>
 							<figure className='slider_imgContainer'>
-								<a className='slider_link' href={url} target='_blank'>
+								<a className='slider_link' href={url} target=''>
 									<img className='slider_img' src={image} alt={title} />
-									<div className='slider_buyText'>
+									{/* <div className='slider_buyText'>
 										<h5>click me to buy</h5>
-									</div>
+									</div> */}
 								</a>
 							</figure>
 						</article>
