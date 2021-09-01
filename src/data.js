@@ -1,19 +1,19 @@
 import React from "react";
-import august_25 from "./assets/slider/august_25.jpeg";
-import default_img from "./assets/slider/default.jpeg";
+import september_05 from "./assets/slider/september_05.jpeg";
+// import default_img from "./assets/slider/default.jpeg";
 
 const sliderData = [
 	{
 		id: 1,
-		url: "#",
-		title: "cocktail",
-		image: default_img,
+		url: "https://www.ticketfairy.com/event/david-penn-5sep2021/",
+		title: "special dinner with david peen",
+		image: september_05,
 	},
 	{
 		id: 2,
-		url: "#",
-		title: "cocktail",
-		image: default_img,
+		url: "https://www.ticketfairy.com/event/david-penn-5sep2021/",
+		title: "special dinner with david peen",
+		image: september_05,
 	},
 ];
 
