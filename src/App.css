@@ -103,7 +103,8 @@ button {
 
 .slider_buyText {
 	position: absolute;
-	bottom: 150px;
+	/* bottom: 150px; */
+	bottom: 10px;
 	height: 30px;
 	width: 130px;
 	background: #ffffffc2;
