@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/qr_menu_eventos/static/css/main.63920487.chunk.css",
+    "main.js": "/qr_menu_eventos/static/js/main.e17387f4.chunk.js",
+    "main.js.map": "/qr_menu_eventos/static/js/main.e17387f4.chunk.js.map",
+    "runtime-main.js": "/qr_menu_eventos/static/js/runtime-main.a88ad89c.js",
+    "runtime-main.js.map": "/qr_menu_eventos/static/js/runtime-main.a88ad89c.js.map",
+    "static/js/2.2d91cadf.chunk.js": "/qr_menu_eventos/static/js/2.2d91cadf.chunk.js",
+    "static/js/2.2d91cadf.chunk.js.map": "/qr_menu_eventos/static/js/2.2d91cadf.chunk.js.map",
+    "index.html": "/qr_menu_eventos/index.html",
+    "static/css/main.63920487.chunk.css.map": "/qr_menu_eventos/static/css/main.63920487.chunk.css.map",
+    "static/js/2.2d91cadf.chunk.js.LICENSE.txt": "/qr_menu_eventos/static/js/2.2d91cadf.chunk.js.LICENSE.txt",
+    "static/media/drinks1.acaba47e.jpg": "/qr_menu_eventos/static/media/drinks1.acaba47e.jpg",
+    "static/media/drinks2.e06fb32d.jpg": "/qr_menu_eventos/static/media/drinks2.e06fb32d.jpg",
+    "static/media/food_esp.5d2ab0d1.jpg": "/qr_menu_eventos/static/media/food_esp.5d2ab0d1.jpg",
+    "static/media/food_ing.ab27bb2e.jpg": "/qr_menu_eventos/static/media/food_ing.ab27bb2e.jpg",
+    "static/media/pizzaPasta_esp.85b2ede5.jpg": "/qr_menu_eventos/static/media/pizzaPasta_esp.85b2ede5.jpg",
+    "static/media/pizzaPasta_ing.90b08bc2.jpg": "/qr_menu_eventos/static/media/pizzaPasta_ing.90b08bc2.jpg",
+    "static/media/september_05.ae42fe3e.jpeg": "/qr_menu_eventos/static/media/september_05.ae42fe3e.jpeg",
+    "static/media/september_08.befa8753.jpeg": "/qr_menu_eventos/static/media/september_08.befa8753.jpeg",
+    "static/media/september_10.a8dc8b0e.jpeg": "/qr_menu_eventos/static/media/september_10.a8dc8b0e.jpeg",
+    "static/media/september_12.d7abd006.jpeg": "/qr_menu_eventos/static/media/september_12.d7abd006.jpeg",
+    "static/media/september_16.12df321e.jpeg": "/qr_menu_eventos/static/media/september_16.12df321e.jpeg",
+    "static/media/september_17.edbe339f.jpeg": "/qr_menu_eventos/static/media/september_17.edbe339f.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a88ad89c.js",
+    "static/js/2.2d91cadf.chunk.js",
+    "static/css/main.63920487.chunk.css",
+    "static/js/main.e17387f4.chunk.js"
+  ]
+}
